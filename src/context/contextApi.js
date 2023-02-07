@@ -5,7 +5,7 @@ const APIContext = createContext();
 
 export function APIContextProvder({ children }) {
 
-  const baseUrl = "http://localhost:7000";
+  const baseUrl = "https://backend-todo-l32j.onrender.com";
   const navigate = useNavigate();
   const [todos, setTodos] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
